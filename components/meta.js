@@ -1,6 +1,6 @@
 import Head from 'next/head'
 
-export default function Meta() {
+export default function Meta({ title }) {
   return (
     <Head>
       <link
@@ -33,8 +33,9 @@ export default function Meta() {
       <link rel="alternate" type="application/rss+xml" href="/feed.xml" />
       <meta
         name="description"
-        content={`Martin Andrej Johan Grönlund's personal website. Welcome!`}
+        content="Martin Grönlund's personal website. Welcome!"
       />
+      <title>{title}</title>
     </Head>
   )
 }
