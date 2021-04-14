@@ -3,6 +3,11 @@ import Head from 'next/head'
 export default function Meta({ title }) {
   return (
     <Head>
+      <meta name="description" content="Martin Grönlund, Software Developer" />
+      <meta name="msapplication-TileColor" content="#fff" />
+      <meta name="msapplication-config" content="/favicon/browserconfig.xml" />
+      <meta name="theme-color" content="#fff" />
+
       <link
         rel="apple-touch-icon"
         sizes="180x180"
@@ -27,11 +32,7 @@ export default function Meta({ title }) {
         color="#000"
       />
       <link rel="shortcut icon" href="/favicon/favicon.ico" />
-      <meta name="msapplication-TileColor" content="#fff" />
-      <meta name="msapplication-config" content="/favicon/browserconfig.xml" />
-      <meta name="theme-color" content="#fff" />
-      <link rel="alternate" type="application/rss+xml" href="/feed.xml" />
-      <meta name="description" content="Martin Grönlund, Software Developer" />
+
       <title>{title}</title>
     </Head>
   )
