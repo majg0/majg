@@ -31,10 +31,7 @@ export default function Meta({ title }) {
       <meta name="msapplication-config" content="/favicon/browserconfig.xml" />
       <meta name="theme-color" content="#fff" />
       <link rel="alternate" type="application/rss+xml" href="/feed.xml" />
-      <meta
-        name="description"
-        content="Martin Grönlund's personal website. Welcome!"
-      />
+      <meta name="description" content="Martin Grönlund, Software Developer" />
       <title>{title}</title>
     </Head>
   )

@@ -96,7 +96,7 @@ export default function Index({ preview, allPosts, me }) {
               <Container className="py-8 z-1 relative">
                 <div className="justify-center">
                   <article className="prose prose-sm sm:prose">
-                    <h1>Software Distiller</h1>
+                    <h1>Software Developer</h1>
 
                     <h2>Core Values</h2>
                     <ul>
