@@ -27,7 +27,7 @@ function IconTextLink({ icon, text, link }) {
   return (
     <div className="px-2">
       <Link href={link}>
-        <a target="blank" className="flex flex-col">
+        <a target="_blank" className="flex flex-col">
           {React.createElement(icon, { className: 'mx-auto h-8 w-8' })}
           <div className="font-light">{text}</div>
         </a>
