@@ -121,7 +121,7 @@ export default function Index({ preview, allPosts, me }) {
                     <p>I'm driven to maximize long-term growth.</p>
                     <p>I commit to:</p>
                     <ul>
-                      <li>Using empathetic questioning leadership</li>
+                      <li>Using empathic questioning leadership</li>
                       <li>Building a disciplined highly competent team</li>
                       <li>Thinking critically, confronting brutal facts</li>
                       <li>
